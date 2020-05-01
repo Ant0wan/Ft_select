@@ -1,5 +1,6 @@
 # Ft\_select [![42](https://i.imgur.com/9NXfcit.jpg)](i.imgur.com/9NXfcit.jpg)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c0e3789d2202457cacd7890b16cd88f0)](https://www.codacy.com/manual/Ant0wan/Ft_select?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ant0wan/Ft_select&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6183dab2e6814ce2bbc007f9d582d61c)](https://www.codacy.com/manual/antoinepaulbarthelemy/Ft_select?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ant0wan/Ft_select&amp;utm_campaign=Badge_Grade) [![Build Status](https://travis-ci.org/Ant0wan/Ft_select.svg?branch=master)](https://travis-ci.org/Ant0wan/Ft_select)
+
 
 An implementation of an **in-shell file dialog** using termcaps [a 42 project].
 
