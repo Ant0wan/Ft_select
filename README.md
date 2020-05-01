@@ -1,5 +1,5 @@
 # Ft\_select [![42](https://i.imgur.com/9NXfcit.jpg)](i.imgur.com/9NXfcit.jpg)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6183dab2e6814ce2bbc007f9d582d61c)](https://www.codacy.com/manual/antoinepaulbarthelemy/Ft_select?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ant0wan/Ft_select&amp;utm_campaign=Badge_Grade) [![Build Status](https://travis-ci.org/Ant0wan/Ft_select.svg?branch=master)](https://travis-ci.org/Ant0wan/Ft_select)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ea311c7ebc7e430690a7fad5943ca625)](https://www.codacy.com/manual/antoinepaulbarthelemy/Ft_select?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ant0wan/Ft_select&amp;utm_campaign=Badge_Grade) [![Build Status](https://travis-ci.org/Ant0wan/Ft_select.svg?branch=master)](https://travis-ci.org/Ant0wan/Ft_select)
 
 
 An implementation of an **in-shell file dialog** using termcaps [a 42 project].
@@ -59,7 +59,7 @@ signal
 - Termcap library:
 
 ```shell=
-sudo apt-get install libncurses5-dev
+sudo apt-get -y install libncurses5-dev
 ```
 
 ## Usage
@@ -90,4 +90,3 @@ For instance:
 Output:
 
 <img width="238" alt="screen shot 2017-07-23 at 5 05 13 pm" src="https://user-images.githubusercontent.com/25576444/28504306-aa712164-6fc9-11e7-986d-de43d853c9eb.png">
-
