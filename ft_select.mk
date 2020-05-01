@@ -6,7 +6,7 @@
 #    By: abarthel <abarthel@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/25 14:45:47 by abarthel          #+#    #+#              #
-#    Updated: 2019/09/11 18:17:14 by abarthel         ###   ########.fr        #
+#    Updated: 2020/05/01 10:28:58 by abarthel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,8 +51,8 @@ LDLIBS += -ltermcap $(PATH_LIBFT)libft.a
 ifneq ($(shell uname -s),Darwin)
 	CFLAGS += -ansi -Wall -Wextra -Werror -std=c99 -D_POSIX_C_SOURCE
 else
-	CFLAGS += -Wall -Wextra -Werror -D_DARWIN_C_SOURCE -std=c99
+	CFLAGS += -Wall -Wextra -Werror -std=c99 -D_DARWIN_C_SOURCE
 endif
 
-CFLAGS += -g -fsanitize=address
-#CFLAGS += -fno-builtin -O2
+#CFLAGS += -g -fsanitize=address
+CFLAGS += -fno-builtin -O2
